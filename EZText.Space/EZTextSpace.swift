@@ -124,8 +124,6 @@ public struct EZTextSpace {
             addSubview(imageView)
     
             let nameView = UILabel(x: textContainerView.x + textContainerView.w/10, y: textContainerView.y - Settings.height/5, w: 10, h: Settings.height/4)
-            textView.editable = false
-            textView.selectable = false
             nameView.backgroundColor = UIColor.blackColor()
             nameView.layer.cornerRadius = 10
             nameView.textColor = UIColor.whiteColor()
